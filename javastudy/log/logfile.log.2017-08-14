@@ -1,0 +1,5 @@
+[INFO ] main 2017-08-14 21:59:22 method:log.LogTest.main(LogTest.java:16) This is info message
+[DEBUG] main 2017-08-14 21:59:22 method:log.LogTest.main(LogTest.java:17) This is debug message
+[INFO ] main 2017-08-14 22:04:24 method:log.LogTest.main(LogTest.java:21) This is info message
+[DEBUG] main 2017-08-14 22:04:24 method:log.LogTest.main(LogTest.java:22) This is debug message
+[INFO ] main 2017-08-14 22:05:05 method:log.LogTest.main(LogTest.java:21) This is info message

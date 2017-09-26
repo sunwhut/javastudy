@@ -1,0 +1,14 @@
+[INFO ] main 2016-12-26 18:53:13,904 method:This is info message
+[INFO ] main 2016-12-26 18:54:50 method:This is info message
+[INFO ] main 2016-12-26 18:55:40 method:log.LogTest.main(LogTest.java:12) This is info message
+[INFO ] main 2016-12-26 19:22:14 method:log.LogTest.main(LogTest.java:12) This is info message
+[INFO ] main 2016-12-26 19:28:28 method:log.LogTest.main(LogTest.java:17) This is info message
+[INFO ] main 2016-12-26 19:30:59 method:log.LogTest.main(LogTest.java:17) This is info message
+[DEBUG] main 2016-12-26 19:30:59 method:log.LogTest.main(LogTest.java:18) This is debug message
+[INFO ] main 2016-12-26 20:27:38 method:log.LogTest.main(LogTest.java:17) This is info message
+[DEBUG] main 2016-12-26 20:27:38 method:log.LogTest.main(LogTest.java:18) This is debug message
+[INFO ] main 2016-12-26 21:20:22 method:log.ExceptionTest.main(ExceptionTest.java:34) info message inLog.ExceptionTest
+[INFO ] main 2016-12-26 21:20:39 method:log.ExceptionTest.main(ExceptionTest.java:34) info message in log.ExceptionTest
+[INFO ] main 2016-12-26 21:22:16 method:log.AssertTest.main(AssertTest.java:13) info message in log.AssertTest
+[INFO ] main 2016-12-26 21:25:16 method:log.AssertTest.main(AssertTest.java:13) info message in log.AssertTest
+[INFO ] main 2016-12-26 21:25:26 method:log.AssertTest.main(AssertTest.java:13) info message in log.AssertTest

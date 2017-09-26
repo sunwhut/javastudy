@@ -1,0 +1,2 @@
+[INFO ] main 2016-12-27 12:02:40 method:log.LogTest.main(LogTest.java:17) This is info message
+[DEBUG] main 2016-12-27 12:02:40 method:log.LogTest.main(LogTest.java:18) This is debug message

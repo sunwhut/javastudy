@@ -1,0 +1,246 @@
+[INFO ] main 2017-01-18 11:14:57 method:multithread.ThreadSynchronizedTest.main(ThreadSynchronizedTest.java:14) ---线程同步测试---
+[INFO ] main 2017-01-18 11:29:55 method:multithread.ThreadSynchronizedTest.main(ThreadSynchronizedTest.java:14) ---线程同步测试---
+[INFO ] main 2017-01-18 11:31:23 method:multithread.ThreadSynchronizedTest.main(ThreadSynchronizedTest.java:14) ---线程同步测试---
+[INFO ] main 2017-01-18 11:33:14 method:multithread.ThreadSynchronizedTest.main(ThreadSynchronizedTest.java:14) ---线程同步测试---
+[INFO ] main 2017-01-18 11:34:48 method:multithread.ThreadSynchronizedTest.main(ThreadSynchronizedTest.java:14) ---线程同步测试---
+[INFO ] main 2017-01-18 11:35:31 method:multithread.ThreadSynchronizedTest.main(ThreadSynchronizedTest.java:14) ---线程同步测试---
+[INFO ] main 2017-01-18 11:37:02 method:multithread.ThreadSynchronizedTest.main(ThreadSynchronizedTest.java:14) ---线程同步测试---
+[INFO ] main 2017-01-18 11:41:09 method:multithread.ThreadSynchronizedTest.main(ThreadSynchronizedTest.java:14) ---线程同步测试---
+[INFO ] main 2017-01-18 11:42:55 method:multithread.ThreadSynchronizedTest.main(ThreadSynchronizedTest.java:14) ---线程同步测试---
+[INFO ] main 2017-01-18 11:45:34 method:multithread.ThreadSynchronizedTest.main(ThreadSynchronizedTest.java:14) ---线程同步测试---
+[INFO ] main 2017-01-18 11:47:27 method:multithread.ThreadSynchronizedTest.main(ThreadSynchronizedTest.java:14) ---线程同步测试---
+[INFO ] main 2017-01-18 11:48:18 method:multithread.ThreadSynchronizedTest.main(ThreadSynchronizedTest.java:14) ---线程同步测试---
+[INFO ] main 2017-01-18 11:48:26 method:multithread.ThreadSynchronizedTest.main(ThreadSynchronizedTest.java:14) ---线程同步测试---
+[INFO ] main 2017-01-18 20:19:18 method:multithread.ThreadCommunicationTest.main(ThreadCommunicationTest.java:14) ---测试线程通信---
+[INFO ] 生产者 2017-01-18 20:19:19 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : A
+[INFO ] 消费者 2017-01-18 20:19:19 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：A
+[INFO ] 生产者 2017-01-18 20:19:20 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : B
+[INFO ] 消费者 2017-01-18 20:19:20 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：B
+[INFO ] 生产者 2017-01-18 20:19:21 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : C
+[INFO ] 消费者 2017-01-18 20:19:21 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：C
+[INFO ] 生产者 2017-01-18 20:19:22 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : D
+[INFO ] 消费者 2017-01-18 20:19:22 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：D
+[INFO ] 生产者 2017-01-18 20:19:23 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : E
+[INFO ] 消费者 2017-01-18 20:19:23 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：E
+[INFO ] 生产者 2017-01-18 20:19:24 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : F
+[INFO ] 消费者 2017-01-18 20:19:24 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：F
+[INFO ] 生产者 2017-01-18 20:19:25 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : picture
+[INFO ] 消费者 2017-01-18 20:19:25 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：picture
+[INFO ] 生产者 2017-01-18 20:19:26 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : H
+[INFO ] 消费者 2017-01-18 20:19:26 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：H
+[INFO ] 生产者 2017-01-18 20:19:27 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : I
+[INFO ] 消费者 2017-01-18 20:19:27 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：I
+[INFO ] 生产者 2017-01-18 20:19:28 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : J
+[INFO ] 消费者 2017-01-18 20:19:28 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：J
+[INFO ] 生产者 2017-01-18 20:19:29 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : K
+[INFO ] 消费者 2017-01-18 20:19:29 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：K
+[INFO ] 生产者 2017-01-18 20:19:30 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : L
+[INFO ] 消费者 2017-01-18 20:19:30 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：L
+[INFO ] 生产者 2017-01-18 20:19:31 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : M
+[INFO ] 消费者 2017-01-18 20:19:31 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：M
+[INFO ] 生产者 2017-01-18 20:19:32 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : N
+[INFO ] 消费者 2017-01-18 20:19:32 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：N
+[INFO ] 生产者 2017-01-18 20:19:33 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : O
+[INFO ] 消费者 2017-01-18 20:19:33 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：O
+[INFO ] 生产者 2017-01-18 20:19:34 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : P
+[INFO ] 消费者 2017-01-18 20:19:34 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：P
+[INFO ] 生产者 2017-01-18 20:19:35 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : Q
+[INFO ] 消费者 2017-01-18 20:19:35 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：Q
+[INFO ] 生产者 2017-01-18 20:19:36 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : R
+[INFO ] 消费者 2017-01-18 20:19:36 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：R
+[INFO ] 生产者 2017-01-18 20:19:37 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : S
+[INFO ] 消费者 2017-01-18 20:19:37 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：S
+[INFO ] 生产者 2017-01-18 20:19:38 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : T
+[INFO ] 消费者 2017-01-18 20:19:38 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：T
+[INFO ] 生产者 2017-01-18 20:19:39 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : U
+[INFO ] 消费者 2017-01-18 20:19:39 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：U
+[INFO ] 生产者 2017-01-18 20:19:40 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : V
+[INFO ] 消费者 2017-01-18 20:19:40 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：V
+[INFO ] 生产者 2017-01-18 20:19:41 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : W
+[INFO ] 消费者 2017-01-18 20:19:41 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：W
+[INFO ] 生产者 2017-01-18 20:19:42 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : X
+[INFO ] 消费者 2017-01-18 20:19:42 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：X
+[INFO ] 生产者 2017-01-18 20:19:43 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : Y
+[INFO ] 消费者 2017-01-18 20:19:43 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：Y
+[INFO ] 生产者 2017-01-18 20:19:44 method:multithread.Producer.run(ThreadCommunicationTest.java:87) 生产者线程,生产 : Z
+[INFO ] 消费者 2017-01-18 20:19:44 method:multithread.Consumer.run(ThreadCommunicationTest.java:114) 消费者线程,消费 ：Z
+[INFO ] main 2017-01-18 20:27:15 method:multithread.ThreadCommunicationTest.main(ThreadCommunicationTest.java:14) ---测试线程通信---
+[INFO ] 生产者 2017-01-18 20:27:16 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : A
+[INFO ] 消费者 2017-01-18 20:27:16 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：A
+[INFO ] 消费者 2017-01-18 20:27:17 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：B
+[INFO ] 生产者 2017-01-18 20:27:17 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : B
+[INFO ] 生产者 2017-01-18 20:27:18 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : C
+[INFO ] 消费者 2017-01-18 20:27:18 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：C
+[INFO ] 生产者 2017-01-18 20:27:19 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : D
+[INFO ] 消费者 2017-01-18 20:27:19 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：D
+[INFO ] 生产者 2017-01-18 20:27:20 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : E
+[INFO ] 消费者 2017-01-18 20:27:20 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：E
+[INFO ] 生产者 2017-01-18 20:27:21 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : F
+[INFO ] 消费者 2017-01-18 20:27:21 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：F
+[INFO ] 生产者 2017-01-18 20:27:22 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : picture
+[INFO ] 消费者 2017-01-18 20:27:22 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：picture
+[INFO ] 生产者 2017-01-18 20:27:23 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : H
+[INFO ] 消费者 2017-01-18 20:27:23 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：H
+[INFO ] 生产者 2017-01-18 20:27:24 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : I
+[INFO ] 消费者 2017-01-18 20:27:25 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：I
+[INFO ] 生产者 2017-01-18 20:27:25 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : J
+[INFO ] 消费者 2017-01-18 20:27:26 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：J
+[INFO ] 生产者 2017-01-18 20:27:26 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : K
+[INFO ] 消费者 2017-01-18 20:27:27 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：K
+[INFO ] 生产者 2017-01-18 20:27:27 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : L
+[INFO ] 消费者 2017-01-18 20:27:28 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：L
+[INFO ] 生产者 2017-01-18 20:27:28 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : M
+[INFO ] 消费者 2017-01-18 20:27:29 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：M
+[INFO ] 生产者 2017-01-18 20:27:29 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : N
+[INFO ] 消费者 2017-01-18 20:27:30 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：N
+[INFO ] 生产者 2017-01-18 20:27:30 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : O
+[INFO ] 消费者 2017-01-18 20:27:31 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：O
+[INFO ] 生产者 2017-01-18 20:27:31 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : P
+[INFO ] 消费者 2017-01-18 20:27:32 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：P
+[INFO ] 生产者 2017-01-18 20:27:32 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : Q
+[INFO ] 消费者 2017-01-18 20:27:33 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：Q
+[INFO ] 生产者 2017-01-18 20:27:33 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : R
+[INFO ] 消费者 2017-01-18 20:27:34 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：R
+[INFO ] 生产者 2017-01-18 20:27:35 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : S
+[INFO ] 消费者 2017-01-18 20:27:35 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：S
+[INFO ] 消费者 2017-01-18 20:27:36 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：T
+[INFO ] 生产者 2017-01-18 20:27:36 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : T
+[INFO ] 生产者 2017-01-18 20:27:37 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : U
+[INFO ] 消费者 2017-01-18 20:27:37 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：U
+[INFO ] 生产者 2017-01-18 20:27:38 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : V
+[INFO ] 消费者 2017-01-18 20:27:38 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：V
+[INFO ] 生产者 2017-01-18 20:27:39 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : W
+[INFO ] 消费者 2017-01-18 20:27:39 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：W
+[INFO ] 生产者 2017-01-18 20:27:40 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : X
+[INFO ] 消费者 2017-01-18 20:27:40 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：X
+[INFO ] 生产者 2017-01-18 20:27:41 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : Y
+[INFO ] 消费者 2017-01-18 20:27:41 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：Y
+[INFO ] 生产者 2017-01-18 20:27:42 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : Z
+[INFO ] 消费者 2017-01-18 20:27:42 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：Z
+[INFO ] main 2017-01-18 20:27:55 method:multithread.ThreadCommunicationTest.main(ThreadCommunicationTest.java:14) ---测试线程通信---
+[INFO ] 生产者 2017-01-18 20:27:56 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : A
+[INFO ] 消费者 2017-01-18 20:27:56 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：A
+[INFO ] 生产者 2017-01-18 20:27:57 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : B
+[INFO ] 消费者 2017-01-18 20:27:57 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：B
+[INFO ] 生产者 2017-01-18 20:27:58 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : C
+[INFO ] 消费者 2017-01-18 20:27:58 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：C
+[INFO ] 生产者 2017-01-18 20:27:59 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : D
+[INFO ] 消费者 2017-01-18 20:27:59 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：D
+[INFO ] 生产者 2017-01-18 20:28:00 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : E
+[INFO ] 消费者 2017-01-18 20:28:00 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：E
+[INFO ] 生产者 2017-01-18 20:28:01 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : F
+[INFO ] 消费者 2017-01-18 20:28:01 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：F
+[INFO ] 生产者 2017-01-18 20:28:02 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : picture
+[INFO ] 消费者 2017-01-18 20:28:02 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：picture
+[INFO ] 生产者 2017-01-18 20:28:03 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : H
+[INFO ] 消费者 2017-01-18 20:28:03 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：H
+[INFO ] 生产者 2017-01-18 20:28:04 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : I
+[INFO ] 消费者 2017-01-18 20:28:04 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：I
+[INFO ] 生产者 2017-01-18 20:28:05 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : J
+[INFO ] 消费者 2017-01-18 20:28:05 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：J
+[INFO ] 生产者 2017-01-18 20:28:06 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : K
+[INFO ] 消费者 2017-01-18 20:28:06 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：K
+[INFO ] 生产者 2017-01-18 20:28:07 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : L
+[INFO ] 消费者 2017-01-18 20:28:07 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：L
+[INFO ] 生产者 2017-01-18 20:28:08 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : M
+[INFO ] 消费者 2017-01-18 20:28:08 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：M
+[INFO ] 生产者 2017-01-18 20:28:09 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : N
+[INFO ] 消费者 2017-01-18 20:28:09 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：N
+[INFO ] 生产者 2017-01-18 20:28:10 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : O
+[INFO ] 消费者 2017-01-18 20:28:10 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：O
+[INFO ] 生产者 2017-01-18 20:28:11 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : P
+[INFO ] 消费者 2017-01-18 20:28:11 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：P
+[INFO ] 生产者 2017-01-18 20:28:12 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : Q
+[INFO ] 消费者 2017-01-18 20:28:12 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：Q
+[INFO ] 生产者 2017-01-18 20:28:13 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : R
+[INFO ] 消费者 2017-01-18 20:28:13 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：R
+[INFO ] 生产者 2017-01-18 20:28:14 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : S
+[INFO ] 消费者 2017-01-18 20:28:14 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：S
+[INFO ] 生产者 2017-01-18 20:28:15 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : T
+[INFO ] 消费者 2017-01-18 20:28:15 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：T
+[INFO ] 生产者 2017-01-18 20:28:16 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : U
+[INFO ] 消费者 2017-01-18 20:28:16 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：U
+[INFO ] 生产者 2017-01-18 20:28:17 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : V
+[INFO ] 消费者 2017-01-18 20:28:17 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：V
+[INFO ] 生产者 2017-01-18 20:28:18 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : W
+[INFO ] 消费者 2017-01-18 20:28:18 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：W
+[INFO ] 生产者 2017-01-18 20:28:19 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : X
+[INFO ] 消费者 2017-01-18 20:28:19 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：X
+[INFO ] 生产者 2017-01-18 20:28:20 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : Y
+[INFO ] 消费者 2017-01-18 20:28:20 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：Y
+[INFO ] 生产者 2017-01-18 20:28:21 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : Z
+[INFO ] 消费者 2017-01-18 20:28:21 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：Z
+[INFO ] main 2017-01-18 20:28:55 method:multithread.ThreadCommunicationTest.main(ThreadCommunicationTest.java:14) ---测试线程通信---
+[INFO ] 消费者 2017-01-18 20:29:31 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：A
+[INFO ] 生产者 2017-01-18 20:32:45 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : A
+[INFO ] 生产者 2017-01-18 20:32:57 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : B
+[INFO ] 生产者 2017-01-18 20:33:21 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : C
+[INFO ] main 2017-01-18 20:33:47 method:multithread.ThreadCommunicationTest.main(ThreadCommunicationTest.java:14) ---测试线程通信---
+[INFO ] 生产者 2017-01-18 20:35:20 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : A
+[INFO ] 消费者 2017-01-18 20:35:54 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：A
+[INFO ] 消费者 2017-01-18 20:36:31 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：B
+[INFO ] 生产者 2017-01-18 20:36:50 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : B
+[INFO ] 消费者 2017-01-18 20:37:16 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：C
+[INFO ] 生产者 2017-01-18 20:37:45 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : C
+[INFO ] main 2017-01-18 21:23:49 method:multithread.ThreadCommunicationTest.main(ThreadCommunicationTest.java:14) ---测试线程通信---
+[INFO ] 生产者 2017-01-18 21:23:50 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : A
+[INFO ] 消费者 2017-01-18 21:23:50 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：A
+[INFO ] 生产者 2017-01-18 21:23:51 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : B
+[INFO ] 消费者 2017-01-18 21:23:51 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：B
+[INFO ] 生产者 2017-01-18 21:23:52 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : C
+[INFO ] 消费者 2017-01-18 21:23:52 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：C
+[INFO ] 生产者 2017-01-18 21:23:53 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : D
+[INFO ] 消费者 2017-01-18 21:23:53 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：D
+[INFO ] 生产者 2017-01-18 21:23:54 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : E
+[INFO ] 消费者 2017-01-18 21:23:54 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：E
+[INFO ] 生产者 2017-01-18 21:23:55 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : F
+[INFO ] 消费者 2017-01-18 21:23:55 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：F
+[INFO ] 生产者 2017-01-18 21:23:56 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : picture
+[INFO ] 消费者 2017-01-18 21:23:56 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：picture
+[INFO ] 生产者 2017-01-18 21:23:57 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : H
+[INFO ] 消费者 2017-01-18 21:23:57 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：H
+[INFO ] 生产者 2017-01-18 21:23:58 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : I
+[INFO ] 消费者 2017-01-18 21:23:58 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：I
+[INFO ] 生产者 2017-01-18 21:23:59 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : J
+[INFO ] 消费者 2017-01-18 21:23:59 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：J
+[INFO ] 生产者 2017-01-18 21:24:00 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : K
+[INFO ] 消费者 2017-01-18 21:24:00 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：K
+[INFO ] 生产者 2017-01-18 21:24:01 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : L
+[INFO ] 消费者 2017-01-18 21:24:01 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：L
+[INFO ] 生产者 2017-01-18 21:24:02 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : M
+[INFO ] 消费者 2017-01-18 21:24:02 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：M
+[INFO ] 生产者 2017-01-18 21:24:03 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : N
+[INFO ] 消费者 2017-01-18 21:24:03 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：N
+[INFO ] 生产者 2017-01-18 21:24:04 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : O
+[INFO ] 消费者 2017-01-18 21:24:04 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：O
+[INFO ] 生产者 2017-01-18 21:24:05 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : P
+[INFO ] 消费者 2017-01-18 21:24:05 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：P
+[INFO ] 生产者 2017-01-18 21:24:06 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : Q
+[INFO ] 消费者 2017-01-18 21:24:06 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：Q
+[INFO ] 生产者 2017-01-18 21:24:07 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : R
+[INFO ] 消费者 2017-01-18 21:24:07 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：R
+[INFO ] 生产者 2017-01-18 21:24:08 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : S
+[INFO ] 消费者 2017-01-18 21:24:08 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：S
+[INFO ] 生产者 2017-01-18 21:24:09 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : T
+[INFO ] 消费者 2017-01-18 21:24:09 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：T
+[INFO ] 生产者 2017-01-18 21:24:10 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : U
+[INFO ] 消费者 2017-01-18 21:24:10 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：U
+[INFO ] 生产者 2017-01-18 21:24:11 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : V
+[INFO ] 消费者 2017-01-18 21:24:11 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：V
+[INFO ] 生产者 2017-01-18 21:24:12 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : W
+[INFO ] 消费者 2017-01-18 21:24:12 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：W
+[INFO ] 生产者 2017-01-18 21:24:13 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : X
+[INFO ] 消费者 2017-01-18 21:24:13 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：X
+[INFO ] 生产者 2017-01-18 21:24:14 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : Y
+[INFO ] 消费者 2017-01-18 21:24:14 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：Y
+[INFO ] 生产者 2017-01-18 21:24:15 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : Z
+[INFO ] 消费者 2017-01-18 21:24:15 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：Z
+[INFO ] main 2017-01-18 21:53:37 method:concurrent.BlockingQueueTest.main(BlockingQueueTest.java:17) ---测试阻塞队列---
+[INFO ] main 2017-01-18 21:56:47 method:concurrent.BlockingQueueTest.main(BlockingQueueTest.java:17) ---测试阻塞队列---
+[INFO ] main 2017-01-18 21:57:17 method:concurrent.BlockingQueueTest.main(BlockingQueueTest.java:17) ---测试阻塞队列---
+[INFO ] main 2017-01-18 22:00:07 method:concurrent.BlockingQueueTest.main(BlockingQueueTest.java:17) ---测试阻塞队列---
+[INFO ] main 2017-01-18 22:58:32 method:concurrent.BlockingQueueTest.main(BlockingQueueTest.java:17) ---测试阻塞队列---
+[INFO ] main 2017-01-18 22:58:41 method:concurrent.BlockingQueueTest.main(BlockingQueueTest.java:17) ---测试阻塞队列---
+[INFO ] 消费者 2017-01-18 23:13:13 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：B
+[INFO ] 消费者 2017-01-18 23:13:14 method:multithread.Consumer.run(ThreadCommunicationTest.java:118) 消费者线程,消费 ：D
+[INFO ] 生产者 2017-01-18 23:13:14 method:multithread.Producer.run(ThreadCommunicationTest.java:91) 生产者线程,生产 : D

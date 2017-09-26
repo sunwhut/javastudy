@@ -1,0 +1,27 @@
+[INFO ] main 2017-02-20 16:54:05 method:jdbc.DBConnection.getConnection(DBConnection.java:45) 连接数据库成功！
+[INFO ] main 2017-02-20 16:54:05 method:jdbc.ManipulateStudent.insertStudent(ManipulateStudent.java:28) insert into student values(201572642, '杨', 24)插入成功！
+[INFO ] main 2017-02-20 16:56:58 method:jdbc.DBConnection.getConnection(DBConnection.java:45) 连接数据库成功！
+[INFO ] main 2017-02-20 16:56:58 method:jdbc.ManipulateStudent.insertStudent(ManipulateStudent.java:27) insert into student values(201572642, '杨', 24)插入成功！
+[INFO ] main 2017-02-20 16:59:16 method:jdbc.DBConnection.getConnection(DBConnection.java:45) 连接数据库成功！
+[INFO ] main 2017-02-20 16:59:16 method:jdbc.ManipulateStudent.insertStudent(ManipulateStudent.java:27) insert into student values(201572642, '杨', 24)插入成功！
+[INFO ] main 2017-02-20 17:07:36 method:jdbc.DBConnection.getConnection(DBConnection.java:45) 连接数据库成功！
+[INFO ] main 2017-02-20 17:07:36 method:jdbc.ManipulateStudent.insertStudent(ManipulateStudent.java:44) insert into student values(?,?,?) 插入成功！
+[INFO ] main 2017-02-20 20:44:15 method:jdbc.DBConnection.getConnection(DBConnection.java:45) 连接数据库成功！
+[INFO ] main 2017-02-20 20:44:15 method:jdbc.ManipulateStudent.deleteStudent(ManipulateStudent.java:69) delete from student where number = ? 删除成功！
+[INFO ] main 2017-02-20 20:49:48 method:jdbc.DBConnection.getConnection(DBConnection.java:45) 连接数据库成功！
+[INFO ] main 2017-02-20 20:49:48 method:jdbc.ManipulateStudent.updateStudent(ManipulateStudent.java:90) update student set age = ? where number = ? 更新成功！
+[INFO ] main 2017-02-20 21:00:52 method:jdbc.DBConnection.getConnection(DBConnection.java:45) 连接数据库成功！
+[INFO ] main 2017-02-20 21:00:52 method:jdbc.ManipulateStudent.selectStudent(ManipulateStudent.java:113) select * from student where number = ? 查询成功！
+[INFO ] main 2017-02-20 21:01:10 method:jdbc.DBConnection.getConnection(DBConnection.java:45) 连接数据库成功！
+[INFO ] main 2017-02-20 21:01:10 method:jdbc.ManipulateStudent.selectStudent(ManipulateStudent.java:113) select * from student where number = ? 查询成功！
+[INFO ] main 2017-02-20 21:01:44 method:jdbc.DBConnection.getConnection(DBConnection.java:45) 连接数据库成功！
+[INFO ] main 2017-02-20 21:01:44 method:jdbc.ManipulateStudent.selectStudent(ManipulateStudent.java:113) select * from student where number = ? 查询成功！
+[INFO ] main 2017-02-20 21:02:07 method:jdbc.DBConnection.getConnection(DBConnection.java:45) 连接数据库成功！
+[INFO ] main 2017-02-20 21:02:07 method:jdbc.ManipulateStudent.selectStudent(ManipulateStudent.java:113) select * from student where number = ? 查询成功！
+[INFO ] main 2017-02-20 22:17:45 method:jdbc.DBConnection.getConnection(DBConnection.java:46) 连接数据库成功！
+[INFO ] main 2017-02-20 22:19:06 method:jdbc.DBConnection.getConnection(DBConnection.java:46) 连接数据库成功！
+[INFO ] main 2017-02-20 22:19:06 method:jdbc.ManipulateStudent.callProcedure(ManipulateStudent.java:137) {call add_age(?,?,?)} 存储过程调用成功！
+[INFO ] main 2017-02-20 22:20:20 method:jdbc.DBConnection.getConnection(DBConnection.java:46) 连接数据库成功！
+[INFO ] main 2017-02-20 22:20:20 method:jdbc.ManipulateStudent.callProcedure(ManipulateStudent.java:137) {call add_age(?,?,?)} 存储过程调用成功！
+[INFO ] main 2017-02-20 22:23:19 method:jdbc.DBConnection.getConnection(DBConnection.java:46) 连接数据库成功！
+[INFO ] main 2017-02-20 22:23:19 method:jdbc.ManipulateStudent.callProcedure(ManipulateStudent.java:137) {call add_age(?,?,?)} 存储过程调用成功！
