@@ -4,29 +4,10 @@ package datastructure;
  * Created by sun on 2017/3/1.
  */
 
-import javax.swing.tree.AbstractLayoutCache;
-import java.sql.Time;
-
 /**
  * 自己用链表实现的LinkedList类
  */
 class LinkedList<E>{
-    /**
-     * 成员内部类Node类，代表一个结点
-     * @param <E>
-     */
-    class Node<E>{
-        E data;
-        Node<E> next;
-
-        Node(){}
-
-        Node(E data, Node<E> next){
-            this.data = data;
-            this.next = next;
-        }
-    }
-
     public Node<E> getHead() {
         return head;
     }
@@ -339,6 +320,84 @@ class LinkedList<E>{
         }
         return longHead;
     }
+
+    /**
+     * 将两个无序链表合并成一个有序链表
+     * @param head1
+     * @param head2
+     * @return
+     */
+    public Node mergeList(Node head1, Node head2){
+        sortList(head1);
+        sortList(head2);
+
+        Node head;
+        Node tmp1 = head1;
+        Node tmp2 = head2;
+        if ((int)tmp1.data <= (int)tmp2.data){
+            head = tmp1;
+            tmp1 = tmp1.next;
+        } else {
+            head = tmp2;
+            tmp2 = tmp2.next;
+        }
+
+        Node n = head;
+        while (tmp1 != null && tmp2 != null){
+            if ((int)tmp1.data <= (int)tmp2.data){
+                n.next = tmp1;
+                tmp1 = tmp1.next;
+            } else {
+                n.next = tmp2;
+                tmp2 = tmp2.next;
+            }
+            n = n.next;
+        }
+
+        if (tmp1 != null){
+            n.next = tmp1;
+        }
+
+        if (tmp2 != null){
+            n.next = tmp2;
+        }
+
+        return head;
+    }
+
+    /**
+     * 使用冒泡法对一个无序链表进行排序
+     * @param head
+     */
+    public void sortList(Node head){
+        int length = getLength(head);
+        Node n = head;
+        for (int i = 0; i < length - 1; i++) {
+            for (n = head; n.next != null; n = n.next){
+                if ((int)n.data > (int)n.next.data){
+                    int tmp = (int)n.data;
+                    n.data = n.next.data;
+                    n.next.data = tmp;
+                }
+            }
+        }
+    }
+}
+
+/**
+ * Node类，代表一个结点
+ * @param <E>
+ */
+class Node<E>{
+    E data;
+    Node<E> next;
+
+    Node(){}
+
+    Node(E data, Node<E> next){
+        this.data = data;
+        this.next = next;
+    }
 }
 
 public class LinkedListTest {
@@ -356,9 +415,8 @@ public class LinkedListTest {
         myLinkedList2.add(6);
         myLinkedList2.add(7);
 
-        System.out.println(myLinkedList.getFirstCommonNode(myLinkedList.getHead(),
-                myLinkedList2.getHead()).data);
 
+//        System.out.println(myLinkedList.getFirstCommonNode(myLinkedList.getHead(), myLinkedList2.getHead()).data);
 //        myLinkedList.add(2, 6);
 //        myLinkedList.remove(2);
 //        myLinkedList.set(2, 6);
@@ -395,5 +453,23 @@ public class LinkedListTest {
         }
         Long endTime = System.currentTimeMillis();
         System.out.println("JDK提供的LinkedList所需时间: " + (endTime - beginTime) + "ms");
+
+        Node head1 = new Node(1, null);
+        head1.next = new Node(5, null);
+        head1.next.next = new Node(4, null);
+        head1.next.next.next = new Node(3, null);
+        head1.next.next.next.next = new Node(2, null);
+
+        Node head2 = new Node(8, null);
+        head2.next = new Node(6, null);
+        head2.next.next = new Node(7, null);
+
+        Node head = myLinkedList.mergeList(head1, head2);
+
+        Node tmp = head;
+        while(tmp != null){
+            System.out.print(tmp.data + "-> ");
+            tmp = tmp.next;
+        }
     }
 }
