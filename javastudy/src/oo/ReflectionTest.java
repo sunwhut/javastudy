@@ -1,5 +1,7 @@
 package oo;
 
+import java.lang.management.GarbageCollectorMXBean;
+import java.lang.management.ManagementFactory;
 import java.lang.reflect.*;
 
 /**
@@ -26,6 +28,10 @@ public class ReflectionTest {
 
             rt.testField(cl, "name", "孙");
             rt.testMethod(cl, "name", "汪");
+
+            for (GarbageCollectorMXBean gc : ManagementFactory.getGarbageCollectorMXBeans()) {
+                System.out.println(gc.getName());
+            }
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
