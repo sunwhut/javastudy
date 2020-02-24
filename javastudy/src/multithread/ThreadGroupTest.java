@@ -1,29 +1,39 @@
 package multithread;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-
 /**
  * Created by sun on 2017/2/7.
  */
 public class ThreadGroupTest {
-    private static Log log = LogFactory.getLog(ThreadGroupTest.class);
-
-    public static void main(String[] args){
-        log.info("---测试ThreadGroupTest类---");
-        ThreadGroup threadGroup1 = new ThreadGroup("线程组1");
-        ThreadGroup threadGroup2 = new ThreadGroup("线程组2");
-        Thread thread1 = new Thread(threadGroup1, new MThread(), "线程1");
-        Thread thread2 = new Thread(threadGroup2, new MThread(), "线程2");
+    public static void main(String[] args) {
+        ThreadGroup rootThreadGroup = new ThreadGroup("root线程组");
+        Thread thread0 = new Thread(rootThreadGroup, new MRunnable(), "线程A");
+        Thread thread1 = new Thread(rootThreadGroup, new MRunnable(), "线程B");
+        thread0.start();
         thread1.start();
+        ThreadGroup threadGroup1 = new ThreadGroup(rootThreadGroup, "子线程组");
+        Thread thread2 = new Thread(threadGroup1, new MRunnable(), "线程C");
+        Thread thread3 = new Thread(threadGroup1, new MRunnable(), "线程D");
         thread2.start();
+        thread3.start();
+        rootThreadGroup.interrupt();
+        System.out.println("批量中断组内线程");
     }
 }
 
-class MThread implements Runnable{
+class MRunnable implements Runnable {
     @Override
     public void run() {
-        System.out.println("线程组名称： " + Thread.currentThread().getThreadGroup().getName()
-                + " , 线程名： " + Thread.currentThread().getName());
+        while (!Thread.currentThread().isInterrupted()) {
+            System.out.println("线程名: " + Thread.currentThread().getName()
+                    + ", 所在线程组: " + Thread.currentThread().getThreadGroup().getName()
+                    + ", 父线程组: " + Thread.currentThread().getThreadGroup().getParent().getName());
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+//                e.printStackTrace();
+                break;
+            }
+        }
+        System.out.println(Thread.currentThread().getName() + "执行结束");
     }
 }
