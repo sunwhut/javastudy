@@ -16,6 +16,14 @@ import java.util.regex.Pattern;
  */
 public class StringTest {
     public static void main(String[] args) throws Exception {
+        int COUNT_BITS = Integer.SIZE - 3;
+        int RUNNING    = -1 << COUNT_BITS;
+        int CAPACITY   = (1 << COUNT_BITS) - 1;
+        boolean left = false;
+        boolean right = false;
+        boolean a = ! left && right;
+
+
         String s = "Hello World";
         System.out.println("s = " + s);
 
